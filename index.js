@@ -4,9 +4,9 @@ setInterval(function(){
     let sec = time.getSeconds();
     let min = time.getMinutes();
     let hr = time.getHours();
-    let day = 'AM';
+    let day = 'PM';
     if(hr > 12){
-      day = 'PM';
+      day = 'AM';
       hr = hr - 12;
     }
     if(hr == 0){
